@@ -1,0 +1,138 @@
+html, body {
+    width:100%;
+    height:100%;
+    margin-right:20%;
+    padding:20px;
+    font-family: aktiv-grotesk,sans-serif;
+}
+
+body {
+    border-top: solid 1px slategrey;
+}
+
+ul {
+    list-style:none;
+    padding: 10px;
+}
+
+.sidebar,
+.content {
+    height: 100%;
+    /*overflow:auto;*/
+    float: left;
+}
+
+.sidebar {
+    width:20%;
+    padding:20px;
+}
+
+.sidebar img {
+    max-width: 30%;
+}
+
+.sidebar .menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    /*text-align: left;*/
+}
+
+.sidebar .sidebar-top li {
+    line-height: 40px;
+}
+
+.sidebar .sidebar-top .join a{
+     color:orange;
+     font-weight: 700;
+ }
+
+.sidebar .sidebar-top .sign a{
+    color: dimgray;
+}
+
+.sidebar .sidebar-bottom {
+    margin-top:30px;
+}
+
+.sidebar .sidebar-bottom a,
+.sidebar .sidebar-bottom svg {
+    color: darkgray;
+    font-size: 20px;
+}
+
+.sidebar .sidebar-bottom li{
+    line-height: 30px;
+    padding: 0;
+}
+
+.content {
+    width: 80%;
+}
+
+.content .main-content .main-topic .title {
+    font-size: 30px;
+    /*font-weight: 600;*/
+}
+
+.content .main-content .main-topic img {
+    max-width: 100%;
+}
+
+.content .main-content .headlines .title {
+    font-size: 17px;
+}
+
+.content .title {
+    font-weight: 900;
+    line-height: 100%;
+    margin-top:15px;
+}
+
+.content .author {
+    font-size:10px;
+    margin: 15px auto;
+}
+
+.content .date {
+    font-size:10px;
+    color: darkgray;
+}
+
+.content .summary {
+    font-size: 15px;
+    color: darkgray;
+    line-height: 15px;
+}
+
+.content .more-news .title {
+    margin-top:0;
+    font-size: 20px;
+}
+
+.content .more-news .row {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px slategrey;
+}
+
+.content .more-news img{
+    max-width: 100%;
+}
+
+.content .headlines-article img {
+    max-width:10%;
+    margin-top:10px;
+}
+
+.content .headlines-article {
+    border-bottom: solid 1px slategrey;
+}
+
+.content .latest {
+    border-bottom: solid 1px slategrey;
+}
+
+.content .latest p{
+    font-weight: 600;
+    margin: 20px auto;
+}
